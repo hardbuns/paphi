@@ -1,78 +1,90 @@
-<html lang="en">
+<!DOCTYPE html>
 <head>
- 
-    <meta charset="utf-8">
-    <title>Pi Alpha Phi - UC Berkeley</title>
-    <meta name="description" content="UC Berkeley Pi ALpha Phi, Alpha Chapter">
- 
-    <!--Mobile specific meta goodness :)-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
- 
-    <!--css-->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
- 
-    <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
- 
-    <!-- Favicons-->
-    <link rel="shortcut icon" href="img/favicon.ico">
- 
-</head>
-<body id="home" data-spy="scroll" data-target=".navbar">
+  <meta charset="utf-8">
+  <title>Pi Alpha Phi - UC Berkeley</title>
 
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- JS Libraries Go Here -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  
+</head>
+<body data-spy="scroll" data-target=".navbar">
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="brand" href="#home">Pi Alpha Phi</a>
+      <ul class="nav scrollto">
+        <li class="active"><a href="#home" class="scrollto">Home</a></li>
+        <li><a href="#about" class="scrollto">About</a></li>
+        <li><a href="#brothers" class="scrollto">Brothers</a></li>
+        <li><a href="#recruitment" class="scrollto">Recruitment</a></li>
+        <li><a href="#contact" class="scrollto">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
 <div class="jumbotron masthead">
   <div class="container">
   </div>
 </div>
- 
- 	<div class="navbar">
- 		<div class="navbar-inner">
-		
-			<div class="nav-container">
-				<div class="container">
-				<nav>
-			 		<a class="brand" href="#home">Pi Alpha Phi</a>
-					<ul class="nav">
-				 
-						<li><a href="#home" class="selected">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#brothers">Brothers</a></li>
-						<li><a href="#recruitment">Recruitment</a></li>
-						<li><a href="#contact">Contact</a></li>
-				 
-					</ul>			 
-				</nav>
-				</div>
-			</div>
-		</div>
-	</div>
-
+<!-- Home Section-->
 <div id="home" class="page-section">
   <div class="container">
     <div class="row">
       <div class="span12">
-      	<h3 class="text-centered">Welcome to Alpha Chapter </h3>
-      	<br>
-      	<br>
-        <h1 class="text-centered super-large">Pi Alpha Phi</h1>
-        <h3 class="text-centered">UC Berkeley</h3>
-        <p class="text-centered">Pi Alpha Phi is the first Asian-American interest fraternity founded in 1929 by six young men looking to create an organization based on academic excellence, asian awareness, brotherhood, leadership, and philanthropy. For over 80 years strong, Pi Alpha Phi has been helping like-minded individuals realize these goals and develop into leaders in their communities. The Alpha Chapter (first chapter) was established at the University of California Berkeley and the fraternity has expanded to nineteen other campuses on the east and west coast.</p>
-        <p class="text-centered">Scroll down to find out more information about our brotherhood and recruitment process.</p>
+        <h3 class="text-center">Welcome to Alpha Chapter </h3>
+
+        <h1 class="text-center super-large">Pi Alpha Phi</h1>
+
+        <h3 class="text-center">UC Berkeley</h3>
+
+        <p class="text-center no-shadow">Pi Alpha Phi is the first Asian-American interest fraternity founded in 1929 by six
+          young men looking to create an organization based on academic excellence, asian awareness, brotherhood,
+          leadership, and philanthropy. For over 80 years strong, Pi Alpha Phi has been helping like-minded individuals
+          realize these goals and develop into leaders in their communities. The Alpha Chapter (first chapter) was
+          established at the University of California Berkeley and the fraternity has expanded to nineteen other
+          campuses on the east and west coast.</p>
+
+        <div class="alert alert-success text-center">Scroll down to find out more information about our brotherhood
+          and recruitment
+          process.
+        </div>
       </div>
     </div>
   </div>
 </div>
-
+<!-- About Section-->
 <div id="about" class="page-section">
   <div class="container">
-    <div id="content" class="row">
+    <div class="row">
       <div class="span12">
         <h1>About</h1>
       </div>
+
+      <div class="span12">
+      <div id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+          <div class="active item"><img src="img/carousel/background1.jpg" alt=""></div>
+          <div class="item"><img src="img/carousel/background2.jpg" alt=""></div>
+          <div class="item"><img src="img/carousel/background3.jpg" alt=""></div>
+          <div class="item"><img src="img/carousel/background4.jpg" alt=""></div>
+        </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+      </div>
+      </div>
       <div class="span6">
-        <h1>Eighty Four Years Strong</h1>
+        <h3>Eighty Four Years Strong</h3>
 
         <p>Pi Alpha Phi was founded in 1929 at UC Berkeley. The origin of Pi Alpha Phi traces back to the six founding
           fathers: D. Wing Tom, Wing Chan, Elmer Leong, Chack Chan, Tim Jang, and George Lee. These men created the
@@ -97,201 +109,384 @@
           friendships.</p>
       </div>
       <div class="span6">
-        <h1>Eighty Four Years Strong</h1>
+        <h3>Chapters</h3>
+        <ul class="chapters-list">
+          <li>&#913 - University of California, Berkeley</li> 
+          <li>&#915 - University of California, Davis</li>
+          <li>&#916 - San Jose State University</li>
+          <li>&#917 - University of California, Riverside</li>
+          <li>&#918 - University of California, Santa Cruz</li>
+          <li>&#919 - University of California, Irvine</li>
+          <li>&#920 - University of California, San Diego</li>
+          <li>&#921 - University of Michigan, Ann Arbor</li>
+          <li>&#922 - University of Arizona, Tucson</li>
+          <li>&#924 - Michigan State University</li>
+          <li>&#925 - University of North Carolina, Chapel Hill</li>
+          <li>&#926 - University of Washington, Seattle</li>
+          <li>&#927 - University of California, Santa Barbara</li>
+          <li>&#928 - University of Iowa</li>
+          <li>Associate Chapter - University of Buffalo</li>
+          <li>Colony - North Carolina State University</li> 
+          <li>Colony - University of North Carolina Charlotte</li>
+          <li>Colony - San Francisco State University</li>
+          <li>Colony - Northwestern University</li>
+        </ul>
+        <p> For more info, please check out <a href="http://www.pialphaphi.com">www.pialphaphi.com</a></p>
 
-        <p>Pi Alpha Phi was founded in 1929 at UC Berkeley. The origin of Pi Alpha Phi traces back to the six founding
-          fathers: D. Wing Tom, Wing Chan, Elmer Leong, Chack Chan, Tim Jang, and George Lee. These men created the
-          organization on the qualities of:</p>
 
-        <div class="offset1 span5">
-          <ol class="pillars-list">
-            <li>Academic Excellence</li>
-            <li>Asian Awareness</li>
-            <li>Brotherhood</li>
-            <li>Leadership</li>
-            <li>Philanthropy</li>
-          </ol>
-        </div>
-
-        <p>The fraternity has expanded 13 chapters thriving on the east and west coast. Through shared experience and
-          friendship, we create what is essential to any fraternity - brotherhood. With brotherhood as an immutable
-          asset, the lifelong bonds that is developed extend far beyond the university setting.</p>
-
-        <p>Our chapter here at UC Berkeley holds brotherhood events with other chapters and exchanges with sororities at
-          UC Berkeley and other campuses. This provides excellent networking opputunities as well as potential lasting
-          friendships.</p>
+        
       </div>
     </div>
   </div>
 </div>
-		
+<!-- Brothers Section-->
 <div id="brothers" class="page-section">
   <div class="container">
-    <div id="content" class="row">
+    <div class="row">
       <div class="span12">
         <h1>Brothers</h1>
+        <table class="table">
+          <thead class="text-info">
+          <tr>
+            <th>ZK - Zeta Kappa - Spring 2007</th>
+            <th>ΖΛ - Zeta Lambda - Fall 2007</th>
+            <th>ΖM - Zeta Mu - Spring 2008</th>
+            <th>ZN - Zeta Nu - Fall 2008</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>Steven Hsiao</td>
+            <td>Richard Din</td>
+            <td>Steven Chen</td>
+            <td>Irwin Liu</td>
+          </tr>
+          <tr>
+            <td>Bruce Chen</td>
+            <td>Lawrence Leung</td>
+            <td>Eric Chen</td>
+            <td>Anthony Ho</td>
+          </tr>
+          <tr>
+            <td>Sujay Karve</td>
+            <td>Tony Li</td>
+            <td>Justin Chen</td>
+            <td>Darren Lee</td>
+          </tr>
+          <tr>
+            <td>Patrick Lam</td>
+            <td>Ben Mo</td>
+            <td>Engih Chou</td>
+            <td>Ryan Manalo</td>
+          </tr>
+          <tr>
+            <td>Derek Nishimori</td>
+            <td>Daniel Song</td>
+            <td>David Chu</td>
+            <td>Dimitry Petrenko</td>
+          </tr>
+          <tr>
+            <td>Simon Shue</td>
+            <td>Shawn Tsao</td>
+            <td>Sung Hong</td>
+            <td>Danny Song</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Anson Tsui</td>
+            <td>Johnny Nguyen</td>
+            <td>Jason You</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Jason Wang</td>
+            <td>Joelouis Ramirez</td>
+            <td>Jimmy B Zhang</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>James Zheng</td>
+            <td>John Tran</td>
+            <td>Jimmy Y Zhang</td>
+          </tr>
+          </tbody>
+          <thead class="text-info">
+          <tr>
+            <th>ZΞ - Zeta Xi - Spring 2009</th>
+            <th>ZO - Zeta Omicron - Fall 2009</th>
+            <th>ZΠ - Zeta Pi - Spring 2010</th>
+            <th>ZP - Zeta Rho - Fall 2010</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>James Lee</td>
+            <td>Lawrence Leung</td>
+            <td>Sam Shaw</td>
+            <td>Yuchen Mao</td>
+          </tr>
+          <tr>
+            <td>Jordan Cui</td>
+            <td>Wilson Huang</td>
+            <td>Brian Chung</td>
+            <td>Felix Feng</td>
+          </tr>
+          <tr>
+            <td>Victor Mu</td>
+            <td>Edwin Liu</td>
+            <td>Ricky Lee</td>
+            <td>Alex Soong</td>
+          </tr>
+          <tr>
+            <td>Andrew Popov</td>
+            <td>Ronald Liu</td>
+            <td>Victor Lu</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Marvin Varee</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Jason Yang</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Jason Yiu</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Andy Zhang</td>
+            <td></td>
+          </tr>
+          </tbody>
+          <thead class="text-info">
+          <tr>
+            <th>ZΣ - Zeta Sigma - Spring 2011</th>
+            <th>ZT - Zeta Tau - Fall 2011</th>
+            <th>ZΥ - Zeta Upsilon - Spring 2012</th>
+            <th>ZΦ - Zeta Phi - Fall 2012</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>Steven Pham</td>
+            <td>Chris Ng</td>
+            <td>Stefan Tian</td>
+            <td>Raymond Ma</td>
+          </tr>
+          <tr>
+            <td>Arthur Huang</td>
+            <td>Yihao Zhang</td>
+            <td>Michael Chiu</td>
+            <td>Phillip Yin</td>
+          </tr>
+          <tr>
+            <td>Jin Woo Roh</td>
+            <td></td>
+            <td>Chun-Hei Chow</td>
+            <td>Alan Do</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Allen Liu</td>
+            <td>Aaron Chen</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>George Yeh</td>
+            <td>William Liow</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Ming Yue</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Orion Zhao</td>
+            <td></td>
+          </tr>
+          </tbody>
+          <thead class="text-info">
+          <tr>
+            <th>ZC - Zeta Chi - Spring 2013</th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>Brendan Mok</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Kevin Chen</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Samuel Chia</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Daniel Hwang</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Henry Hwaun</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Kenneth Oetomo</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Felix Pu</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Adam Shi</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Samson Su</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>James Wu</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          </tbody>
+        </table>
       </div>
-      	<div class="tableclass">
-          <table class="span12 brothertable">
-              <tr>
-                <td class="table_border_headers">&#918&#921 - Zeta Iota</td>
-                <td class="table_border_headers">&#918&#922 - Zeta Kappa</td>
-                <td class="table_border_headers">&#918&#923 - Zeta Lambda</td>
-                <td class="table_border_headers">&#918&#924 - Zeta Mu</td>
-
-              </tr>
-              <tr>
-                <td class="table_border_content">Ja Wang<br>
-                Vince Luo<br>
-                Eric Nakagawa<br> 
-                Warren Tang
-                <br></td>
-                <td class="table_border_content">Steven Hsiao<br>
-                Bruce Chen<br>
-                Sujay Karve <br> 
-                Patrick Lam <br> 
-                Derek Nishimori
-                <br> 
-                Simon Shue
-                <br></td>
-                <td class="table_border_content">Richard Din <br>Lawrence Leung <br>Tony Li <br>Ben Mo <br>Daniel Song <br>Shawn Taso<br> Anson Tsui<br>Jason Wang<br>James Zheng</td>
-                <td class="table_border_content">Steven Chen<br>Eric Chen<br>Justin Chen<br>Engih Chou<br>David Chu<br>Sung Hong<br>Johnny Nguyen<br>Joelouis Ramirez<br>John Tran</td>
-
-              </tr>
-              <tr>
-                <td class="table_border_headers">&#918&#925 - Zeta Nu</td>
-                <td class="table_border_headers">&#918&#926 - Zeta Xi</td>
-                <td class="table_border_headers">&#918&#927 - Zeta Omicron</td>
-                <td class="table_border_headers">&#918&#928 - Zeta Pi</strong></td>
-
-              </tr>
-              <tr>
-                <td class="table_border_content">Irwin Liu<br>Anthony Ho<br>Darren Lee<br> Ryan Manalo<br>Dimitry Petrenko<br>Danny Song<br>Jason You<br>Jimmy B Zhang<br>Jimmy Y Zhang<br>Danny Choi</td>
-                <td class="table_border_content">James Lee<br>
-                Jordan Cui<br>Victor Mu<br>Andrew Popov</td>
-                <td class="table_border_content">Lawrence Leung<br>
-                Wilson Huang<br>Edwin Liu<br>Ronald Liu</td>
-                <td class="table_border_content">Sam Shaw<br>
-                Brian Chung<br>Ricky Lee<br>Victor Lu<br>Marvin Varee<br>Jason Yang<br>Jason Yiu<br>Andy Zhang</td>
-
-              </tr>
-               <tr>
-                <td class="table_border_headers">&#918&#929 - Zeta Rho</td>
-                <td class="table_border_headers">&#918&#931 - Zeta Sigma</td>
-                <td class="table_border_headers">&#918&#932 - Zeta Tau</td>
-                <td class="table_border_headers">&#918&#933 - Zeta Upsilon</td>
-
-              </tr>
-              <tr>
-                <td class="table_border_content">Yuchen Mao<br>
-                Felix Feng<br>
-                Alex Soong<br></td>
-                <td class="table_border_content">Steven Pham<br>
-                  Arthur Huang<br>
-                  Jinwoo Roh<br></td>
-                <td class="table_border_content">Chris Ng<br>
-                Yihao Zhang</td>
-                <td class="table_border_content">Stefan Tian<br> Mchiael Chiu<br> Chun-Hei Chow<br> Allen Liu<br> George Yeh<br> Ming Yue<br> Orion Zhao</td>
-
-              </tr>
-
-               <tr>
-                <td class="table_border_headers">&#918&#934 - Zeta Phi</td>
-                <td class="table_border_headers">&#918&#935 - Zeta Chi</td>
-                <td></td>
-                <td></td>
-
-              </tr>
-              <tr>
-                <td class="table_border_content">Raymond Ma<br>
-                Aaron Chen<br>
-                Alan Do<br>
-                William Liow<br>
-                Phillip Yin<br></td>
-                <td class="table_border_content">Brendan Mok<br>
-                  Kevin Chen<br>
-                  Samuel Chia<br>
-                  Daniel Hwang<br>
-                  Henry Hwaun<br>
-                  Kenneth Oetomo<br>
-                  Felix Pu<br>
-                  Adam Shi<br>
-                  Samson Su<br>
-                  James Wu<br></td>
-                <td></td>
-                <td></td>
-
-              </tr>
-            </table>
-        </div>
     </div>
   </div>
 </div>
-		
+<!-- Recruitment Section-->
 <div id="recruitment" class="page-section">
   <div class="container">
-    <div id="content" class="row">
-            <div class="span12">
+    <div class="row">
+      <div class="span12">
         <h1>Recruitment</h1>
       </div>
       <div class="span6">
-        <h3>Come and meet the brothers of Pi Alpha Phi!</h3>
+        <div class="alert alert-info">Come and meet the brothers of Pi Alpha Phi!</div>
 
-        <p>♠ IN-N-OUT INFO NIGHT ♠ <br> SATURDAY 8/31 - 7PM </p> <p class="rushdescription"> Find out what Pi Alpha Phi is all about as you enjoy IN-N-OUT burgers on the house.</p>
+        <p><strong>♠ IN-N-OUT INFO NIGHT ♠ <br> SATURDAY 8/31 - 7PM </strong></p>
 
-        <p>♣ PINEAPPLE EXPRESS ♣ <br> SUNDAY 9/1 - 7PM </p> <p class="rushdescription"> Take a break from studying and come chill with the ΠΑΦ family over food, hookah, and games.</p>
+        <p class="rushdescription"> Find out what Pi Alpha Phi is all about as you enjoy IN-N-OUT burgers on the
+          house.</p>
+        <hr>
+        <p><strong>♣ PINEAPPLE EXPRESS ♣ <br> SUNDAY 9/1 - 7PM </strong></p>
 
-        <p>♥ HAWAIIAN LUAU ♥ <br> WEDNESDAY 9/4 - 7:30PM </p> <p class="rushdescription"> Come indulge in authentic Hawaiian BBQ at our luau as we eat, drink, and enjoy the night with good company.</p>
-	
-		<p>♦ LEGACY ♦ <br> SATURDAY 9/7 - 8PM </p> <p class="rushdescription"> Experience over 84 years of Pi Alpha Phi history as you meet the alumni of the first Asian-American interest fraternity. Business casual attire recommended. <p>
+        <p class="rushdescription"> Take a break from studying and come chill with the ΠΑΦ family over food, hookah,
+          and games.</p>
+        <hr>
+        <p><strong>♥ HAWAIIAN LUAU ♥ <br> WEDNESDAY 9/4 - 7:30PM </strong></p>
 
-		<p> BROTHERHOOD NIGHT <br> SUNDAY 9/8 - TBA  </p> <p class="rushdescription"> Invitation Only.</p>
+        <p class="rushdescription"> Come indulge in authentic Hawaiian BBQ at our luau as we eat, drink, and enjoy the
+          night with good company.</p>
+        <hr>
+        <p><strong>♦ LEGACY ♦ <br> SATURDAY 9/7 - 8PM </strong></p>
 
+        <p class="rushdescription"> Experience over 84 years of Pi Alpha Phi history as you meet the alumni of the
+          first Asian-American interest fraternity. Business casual attire recommended.
+        <hr>
+        <p>
+
+        <p><strong> BROTHERHOOD NIGHT <br> SUNDAY 9/8 - TBA </strong></p>
+
+        <p class="rushdescription"> Invitation Only.</p>
 
 
       </div>
-      <div class="span6" id = "rushpic">
-      	<img src="img/rushflyer.jpg">
+      <div class="span6" id="rushpic">
+        <img src="img/rushflyer.jpg">
       </div>
     </div>
   </div>
 </div>
-		
+<!-- Contact Section-->
 <div id="contact" class="page-section">
   <div class="container">
-    <div id="content" class="row">
+    <div class="row">
       <div class="span12">
         <h1>Contact</h1>
+
+        <p>Have questions? Feel free to contact the following:</p>
       </div>
-      <table class="span12 contenttable">
-      	<tr class="contentrow">
-      		<td class="contentcolumn"> Rush Chair </td>
-      		<td class="contentcolumn"> Brendan Mok </td>
-      		<td class="contentcolumn"> <a href="mailto:bmok88@gmail.com">bmok88@gmail.com</a></td>
-  		</tr>
-
-  		<tr class="contentrow">
-  			<td class="contentcolumn"> Rush Chair</td>
-  			<td class="contentcolumn"> Daniel Hwang </td>
-  			<td class="contentcolumn"> <a href="mailto:djhwang423@hotmail.com">djhwang423@hotmail.com</a></td>
-		</tr>
-
-		<tr class="contentrow">
-			<td class="contentcolumn"> VP - External </td>
-			<td class="contentcolumn"> Alan Do </td>
-			<td class="contentcolumn"> <a href="mailto:alanquido@gmail.com">alanquido@gmail.com</a></td>
-		</tr> 
-		</table>		
+      <div class="span4 text-center">
+        <address>
+          <strong>Rush Chair</strong><br><strong>Brendan Mok</strong><br>
+          <a href="mailto:bmok88@gmail.com">bmok88@gmail.com</a>
+        </address>
+      </div>
+      <div class="span4 text-center">
+        <address>
+          <strong>Rush Chair</strong><br><strong>Daniel Hwang</strong><br>
+          <a href="mailto:djhwang423@hotmail.com">djhwang423@hotmail.com</a>
+        </address>
+      </div>
+      <div class="span4 text-center">
+        <address>
+          <strong>Vice President of External Relations</strong><br><strong>Alan Do</strong><br>
+          <a href="mailto:alanquido@gmail.com">alanquido@gmail.com</a>
+        </address>
+      </div>
+      <div class="span12">
+        <address>Visit us at 2534 Warring Street, Berkeley CA 94704</address>
+        </div>
     </div>
   </div>
 </div>
-	
-<!--tutorial for navbar/scrolling taken from http://webdesign.tutsplus.com-->
-<script src="js/jquery-1.6.4.min.js" type="text/javascript"></script>
-<script src="js/jquery.scrollTo-1.4.2-min.js" type="text/javascript"></script>
-<script src="js/waypoints.min.js" type="text/javascript"></script>
-<script src="js/navbar2.js" type="text/javascript"></script>
-<script src="js/bootstrap.min.js"></script>
- 
+<!-- JS Scripts that Run On Page Go Here -->
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25314136-1']);
+  _gaq.push(['_trackPageview']);
+  (function () {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+  })();
+</script>
 </body>
 </html>
